@@ -1,0 +1,21 @@
+.sw {
+	 color: yellow;
+	 font-size: 48px;
+	 font-weight: bold;
+    width: 90%;
+    height: 100%;
+    -webkit-perspective: 200.5px;
+    -webkit-perspective-origin: 50% 0px;  
+}
+
+.sw-elem {
+    width: 100%;
+    -webkit-transform: rotateX(60deg);
+    align-content: center
+    vertical-align: top;
+}
+
+body {
+    background-image: url("img/bg.gif");
+    background-repeat: repeat;
+}
